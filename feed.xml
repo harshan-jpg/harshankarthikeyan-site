@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Harshan Karthikeyan</title>
+    <link>https://harshankarthikeyan.com/</link>
+    <description>I build AI systems for businesses. I write here about what I am building, how I think about it, and where it goes next.</description>
+    <language>en-AU</language>
+    <atom:link href="https://harshankarthikeyan.com/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Sep 2026 09:00:00 +1000</lastBuildDate>
+    <item>
+      <title>Where I am at and where I'm going to go in the next 3 months</title>
+      <link>https://harshankarthikeyan.com/posts/key-ideas-from-a-business-mentor/</link>
+      <guid isPermaLink="true">https://harshankarthikeyan.com/posts/key-ideas-from-a-business-mentor/</guid>
+      <pubDate>Sat, 26 Sep 2026 09:00:00 +1000</pubDate>
+      <description>Reflections after a five-hour talk on thinking clearly. Six parts, thirty-three ideas, and the three I am holding myself to over the next three months.</description>
+      <category>Building in public</category>
+      <category>building in public</category>
+      <category>decision making</category>
+      <category>attention</category>
+      <category>habits</category>
+      <category>health</category>
+    </item>
+  </channel>
+</rss>
