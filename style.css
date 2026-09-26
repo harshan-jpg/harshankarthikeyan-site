@@ -170,7 +170,7 @@ p,li{max-width:64ch}
 @media(max-width:700px){
   .section{padding:3.1rem 0}
   .home-hero,.post-hero{padding:2.9rem 0 1.9rem}
-  .section.founder,.section.closing{padding:3.2rem 0}
+  .section.founder{padding:3.2rem 0}
 }
 
 /* the hero already carries generous bottom padding; the first section need not */
@@ -201,6 +201,9 @@ p,li{max-width:64ch}
 .section.founder .copy p{color:var(--ink-soft);max-width:54ch}
 .section.founder .copy > * + *{margin-top:1.5rem}
 .section.founder .copy p{font-size:1.06rem}
+.section.founder .copy > p:first-child{font-size:clamp(1.2rem,2.1vw,1.45rem);
+  font-weight:640;color:var(--accent);line-height:1.4;letter-spacing:-.01em;
+  max-width:30ch}
 .section.founder .copy a{font-weight:640}
 @media(max-width:860px){
   .section.founder .wrap{grid-template-columns:1fr;gap:2rem}
@@ -211,15 +214,6 @@ p,li{max-width:64ch}
 .section.latest{padding-top:3.4rem}
 .section.latest h2{margin-bottom:.3rem}
 
-/* --- closing statement: the one dark band, so it lands --- */
-.section.closing{background:var(--accent);color:#d6e4da;padding:4.4rem 0;
-  margin-top:1rem}
-.section.closing .wrap > p{color:#d6e4da;font-size:1.16rem;max-width:58ch;
-  line-height:1.72}
-.section.closing .wrap > p:first-of-type{color:#fff;font-size:clamp(1.22rem,2.2vw,1.5rem);
-  font-weight:640;letter-spacing:-.01em;line-height:1.5;max-width:46ch}
-.section.closing .wrap > p + p{margin-top:1.25rem}
-.section.closing a{color:#fff;text-decoration:underline}
 
 /* ---------- icon tones (the workspace four-tone system) ---------- */
 .tone-green {background:#dfeae1;color:#2D6A4F}
@@ -252,9 +246,3 @@ p,li{max-width:64ch}
 @media(max-width:620px){
   .stats,.credcards{grid-template-columns:1fr}
 }
-
-/* ---------- intent mark on the dark band ---------- */
-.intent-ico{width:52px;height:52px;border-radius:14px;display:inline-flex;
-  align-items:center;justify-content:center;background:rgba(255,255,255,.12);
-  color:#fff;margin-bottom:1.6rem}
-.intent-ico svg{width:27px;height:27px}
