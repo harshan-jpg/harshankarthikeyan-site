@@ -179,6 +179,9 @@ p,li{max-width:64ch}
 /* the hero already carries generous bottom padding; the first section need not */
 .home-hero + .section{padding-top:.5rem}
 .post > .section:first-child{padding-top:.6rem}
+/* a post that opens straight into a tinted @part gets full section spacing, not the tucked-up intro */
+.post > .section.tint:first-child{margin-top:1.4rem;padding-top:4.2rem}
+@media(max-width:700px){.post > .section.tint:first-child{padding-top:3.1rem}}
 .post .entry:first-of-type{margin-top:0}
 
 /* ---------- byline ---------- */
